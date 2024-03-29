@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1">
+        <h1><span id="element"></span></h1>
+      </div>
+      <div class="div2">
+        <h1><span id="element1"></span></h1>
+      </div>
+
+      <div class="div3">
+        <input type="text" id="password" placeholder="   password" />
+        <div class="image" onclick="copyPassword()">
+          <img src="./copy.png" alt="" />
+        </div>
+      </div>
+      <div class="div4">
+        <img src="./generate.png" alt="" />
+        <button onclick="createPassword()">Generate Password</button>
+        <button
+          class="btn"
+          style="
+            width: 100px;
+            margin-left: 80px;
+            border-radius: 8px;
+            background: rgb(2, 0, 36);
+            background: linear-gradient(
+              90deg,
+              rgba(2, 0, 36, 1) 0%,
+              rgba(215, 54, 103, 1) 0%,
+              rgba(0, 222, 255, 1) 100%
+            );
+          "
+        >
+          clear
+        </button>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      let typed = new Typed("#element", {
+        strings: ["Generate"],
+        typeSpeed: 50,
+      });
+      let typed1 = new Typed("#element1", {
+        strings: ["Random Password "],
+        typeSpeed: 100,
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

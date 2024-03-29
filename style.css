@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(215, 54, 103, 1) 0%,
+    rgba(0, 222, 255, 1) 100%
+  ); */
+  /* background-color: rgb(19, 19, 86); */
+  /* background: rgb(34, 193, 195);
+  background: radial-gradient(
+    circle,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  ); */
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(215, 101, 44, 1) 100%
+  );
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.div1 h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: 500;
+}
+
+.div2 h1 {
+  font-size: 50px;
+  font-weight: 100;
+  color: #019f55;
+  color: black;
+  font-weight: bold;
+}
+
+.div3 {
+  display: flex;
+}
+.div3 input {
+  margin-top: 20px;
+  width: 600px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.div3 img {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  top: 43px;
+  right: 80px;
+}
+
+.div4 button {
+  height: 50px;
+  width: 300px;
+  font-size: 25px;
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #019f55;
+  color: white;
+  font-weight: bold;
+}
+.div4 img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 38px;
+}
